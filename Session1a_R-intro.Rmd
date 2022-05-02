@@ -15,9 +15,9 @@ print("this will be printed")
 ```
 
 
-### Arithmatics
+### Arithmetics
 ```{r}
-#Arithmatics. +,-,/, * are called operators
+#Arithmetics. +,-,/, * are called operators
 2 + 2
 2 - 2
 15 / 2
@@ -28,7 +28,7 @@ print("this will be printed")
 
 ### R: VARIABLES
 A variable is a letter (or word) which contains some value
-We use assignment operatr '<-' to pass a value to the variable
+We use assignment operator '<-' to pass a value to the variable
 ```{r}
 # Variables
 x <- 4
@@ -80,7 +80,7 @@ y
 ```
 
 ```{r}
-# add the two vectors
+# add the elements of the two vectors
 joined_vectors <- some_vector1 + some_vector2 # the vectors will get added element-wise
 joined_vectors
 ```
