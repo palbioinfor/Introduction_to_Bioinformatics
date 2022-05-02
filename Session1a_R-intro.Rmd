@@ -1,5 +1,6 @@
 ---
 title: "R intro"
+author: "Archana Yadav"
 output: html_notebook
 ---
 
