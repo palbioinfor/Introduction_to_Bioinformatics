@@ -7,8 +7,8 @@ output:
 
 
 # Dataframes
-In any form of data analysis, its most important to understand the datasets. 
-Data frames are form of data structures in tabular format. They are most widely used for data analysis in R. 
+In any form of data analysis, it is most important to understand the datasets. 
+Data frames are a form of data structures in tabular format. They are most widely used for data analysis in R. 
 Data frames,:
 
 - rows : Observations
@@ -95,7 +95,7 @@ summary(Menon_lab)
 
 
 ####Indexing and subsetting
-use [] bracketcs, [row position,column position] 
+use [] brackets, [row position,column position] 
 ```{r}
 Menon_lab
 ```
