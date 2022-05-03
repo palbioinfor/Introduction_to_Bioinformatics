@@ -1,0 +1,21 @@
+---
+title: "Session 1 and 2 pre-installation requirements"
+date: "4 May 2022"
+output: html_document
+---
+
+##Set up markdown and install required packages for Sessions 1 and 2, if not already installed
+```{r setup, include=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+if (!("vsn" %in% rownames(installed.packages()))) {BiocManager::install("vsn")}
+if (!("edgeR" %in% rownames(installed.packages()))) {BiocManager::install("edgeR")}
+if (!("MatrixGenerics" %in% rownames(installed.packages()))) {BiocManager::install("MatrixGenerics")}
+if (!("DESeq2" %in% rownames(installed.packages()))) {BiocManager::install("DESeq2")}
+if (!("pasilla" %in% rownames(installed.packages()))) {BiocManager::install("pasilla")}
+if (!("EnhancedVolcano" %in% rownames(installed.packages()))) {BiocManager::install("EnhancedVolcano")}
+if (!("hexbin" %in% rownames(installed.packages()))) {install.packages("hexbin")}
+if (!("ggplot2" %in% rownames(installed.packages()))) {install.packages("ggplot2")}
+if (!("stats" %in% rownames(installed.packages()))) {install.packages("stats")}
+```
+
